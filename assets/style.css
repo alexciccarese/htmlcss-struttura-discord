@@ -39,14 +39,22 @@ body {
 
 .invite_only {
   background-color: white;
+}
 
-  .left.items {
-    background-color: #1e90ff;
-  }
+.community {
+  background-color: #d3d3d3;
+}
 
-  .right.items {
-    background-color:#ffc0cb ;
-  }
+.fandom {
+  background-color: white;
+}
+
+.img_items {
+  background-color: #1e90ff;
+}
+
+.text_items {
+  background-color:#ffc0cb ;
 }
 
 header {
@@ -103,21 +111,39 @@ header {
   padding: 50px;
   display: flex;
   justify-content: center;
+}
+
+.community {
+  min-height: 600px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
 
   .container {
+    flex-direction: row-reverse;
+  }
+}
+
+.fandom {
+  min-height: 600px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 60%;
+  min-height: 500px;
+  display: flex;
+
+  .img_items {
     width: 60%;
-    min-height: 500px;
-    display: flex;
+    height: 100%;
+  }
 
-    .left.items {
-      width: 60%;
-      height: 100%;
-    }
+  .text_items {
+    width: 40%;
+    height: 100%;
 
-    .right.items {
-      width: 40%;
-      height: 100%;
-
-    }
   }
 }
