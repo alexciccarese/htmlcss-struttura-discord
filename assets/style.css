@@ -37,6 +37,18 @@ body {
   list-style: none;
 }
 
+.invite_only {
+  background-color: white;
+
+  .left.items {
+    background-color: #1e90ff;
+  }
+
+  .right.items {
+    background-color:#ffc0cb ;
+  }
+}
+
 header {
   min-height: 80px;
   display: flex;
@@ -82,5 +94,30 @@ header {
     background-color: #ee82ee;
     width: 50%;
     min-height: 390px;
+  }
+}
+
+
+.invite_only {
+  min-height: 600px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+
+  .container {
+    width: 60%;
+    min-height: 500px;
+    display: flex;
+
+    .left.items {
+      width: 60%;
+      height: 100%;
+    }
+
+    .right.items {
+      width: 40%;
+      height: 100%;
+
+    }
   }
 }
