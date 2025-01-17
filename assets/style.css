@@ -23,21 +23,22 @@ body {
     background-color: blue;
 
     .jumbotron {
-      background-color: #00008b;;
+      background-color: #00008b;
+      ;
     }
 
     .invite_only {
       background-color: white;
     }
-    
+
     .community {
       background-color: #d3d3d3;
     }
-    
+
     .fandom {
       background-color: white;
     }
-    
+
     .technology {
       background-color: #d3d3d3;
 
@@ -45,18 +46,26 @@ body {
         background-color: #228b22;
       }
     }
-    
+
     .img_items {
       background-color: #1e90ff;
     }
-    
+
     .text_items {
-      background-color:#ffc0cb ;
+      background-color: #ffc0cb;
     }
   }
 
   footer {
-    background-color: red;
+    background-color: #23272a;
+
+    .items_0 {
+      background-color: #ffc0cb;
+    }
+
+    .items_1 {
+      background-color: #20b2aa;
+    }
   }
 
 }
@@ -90,7 +99,7 @@ header {
           text-decoration: underline;
         }
       }
-      
+
     }
 
     .login {
@@ -102,11 +111,10 @@ header {
 
 .jumbotron {
   min-height: 500px;
-  padding: 50px;
   display: flex;
   justify-content: center;
 
-  .items_jumbotron {
+  .container {
     background-color: #ee82ee;
     width: 50%;
     min-height: 390px;
@@ -116,14 +124,12 @@ header {
 
 .invite_only {
   min-height: 600px;
-  padding: 50px;
   display: flex;
   justify-content: center;
 }
 
 .community {
   min-height: 600px;
-  padding: 50px;
   display: flex;
   justify-content: center;
 
@@ -134,27 +140,22 @@ header {
 
 .fandom {
   min-height: 600px;
-  padding: 50px;
   display: flex;
   justify-content: center;
 }
 
 .technology {
   min-height: 1000px;
-  padding: 50px;
   display: flex;
   justify-content: center;
-
-  .container {
-    width: 60%;
-    min-height: 100%;
-  }
 }
 
 .container {
   width: 60%;
-  min-height: 500px;
   display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 
   .img_items {
     width: 60%;
@@ -167,3 +168,30 @@ header {
 
   }
 }
+
+
+.info {
+  min-height: 628px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid white;
+
+  .container {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  
+    .items_0 {
+      width: 40%;
+    }
+  
+    .items_1 {
+      width: 20%;
+      border-left: 1px solid;
+    }
+  }
+}
+
